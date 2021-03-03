@@ -1,0 +1,81 @@
+h1{
+  font-family: monospace;
+  font-size: 40px;
+  text-align: center;
+  color: #4169E1;
+}
+.left {
+  float: left;
+  margin-right: 1em;
+}
+
+.right {
+  float: right;
+  margin-left: 1em;
+}
+
+
+/* Styling for Pen, unrelated to float */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #20B2AA;
+}
+
+article {
+  background-color: #FFFF00;
+  padding: 1em;
+  width: 60%;
+  margin: 0 auto;
+  border: 5px solid #F08080;
+}
+h4{
+  color: #C71585;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+  color: #808080;
+  font-size: 15px;
+}
+
+li{
+  color: #808080;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+figure {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.5em;
+  margin: 0; 
+}
+
+img {
+  width: 580px;
+  height: 220px;
+  border-style: dotted;
+}
+
+
+figure img {
+  max-width: 60%;
+}
+
+@media all and (max-width: 1000px) {
+  article {
+    width: 110%;
+  }
+}
+
+@media all and (max-width: 850px) {
+  article {
+    width: 85%;
+  }
+}
